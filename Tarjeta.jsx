@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import './Tarjeta.css';
 
@@ -17,7 +16,7 @@ const Tarjeta = ({ imagen, titulo, descripcion }) => {
 
     return (
         <div className="tarjeta-articulo">
-            <img src={imagen} alt={alt} />
+            <img src={imagen} alt={titulo} />
             <div className="contenido">
                 <h2>{titulo}</h2>
                 <p>{descripcion}</p>
